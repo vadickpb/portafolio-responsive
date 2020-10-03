@@ -9,7 +9,7 @@
     .btn-line {
         width: 28px;
         height: 3px;
-        background-color: #fff;
+        background-color: set-text-color($primary-color);
         margin-bottom: 5px;
         @include easeOut;
     }
