@@ -193,6 +193,25 @@ main {
     background-color: #eece1e;
     color: #000; }
 
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1rem; }
+  .contact-info div {
+    border: 3px solid #fff;
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem;
+    margin: 1rem; }
+    .contact-info div:hover {
+      padding: 0.5rem 1.5rem;
+      background-color: #eece1e;
+      color: #000;
+      transition: all 0.5s ease-in-out; }
+      .contact-info div:hover span {
+        color: #000; }
+
 .btn-light {
   background-color: #c4c4c4;
   color: #333; }
